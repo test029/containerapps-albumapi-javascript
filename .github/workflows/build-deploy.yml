@@ -4,7 +4,7 @@ on:
   workflow_dispatch:      
 # Add env
 env:
-  CONTAINER_REGISTRY: CONTAINER_REGISTRY:tyano002ylwum3hualx22.azurecr.io
+  CONTAINER_REGISTRY: tyano002ylwum3hualx22.azurecr.io
 jobs:
   build:
     runs-on: ubuntu-22.04
